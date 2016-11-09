@@ -5,7 +5,7 @@ package Module2;
  */
 public class Account {
   private double balance;
-  // Stet balance to 600
+  // Set balance to 600
   public  Account(){
     balance =2;
 
@@ -28,4 +28,11 @@ else{
   public double getBalance(){
     return balance ;
   }
-}
+
+
+
+//deposit
+
+  public void deposit(double amount) {
+    balance = balance + amount;
+    System.out.println("Ann has balance of ");}}

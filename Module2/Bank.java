@@ -8,11 +8,11 @@ public class Bank {
     // Create an account
     Account Ann = new Account();
 
-    Ann.withdraw(150);
+    
+    Ann.deposit(340);
     System.out.println("Ann  has a balance of ");
 
     System.out.println(Ann.getBalance());
-
 
 
 
