@@ -6,12 +6,12 @@ package Module2;
 public class Bank {
   public static void main(String[] args) {
     // Create an account
-    Account customer1 = new Account();
+    Account Ann = new Account();
 
-    customer1.withdraw(150);
-    System.out.println("Customer1 has a balance of ");
+    Ann.withdraw(150);
+    System.out.println("Ann  has a balance of ");
 
-    System.out.println(customer1.getBalance());
+    System.out.println(Ann.getBalance());
 
 
 

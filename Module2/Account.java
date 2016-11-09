@@ -7,7 +7,7 @@ public class Account {
   private double balance;
   // Stet balance to 600
   public  Account(){
-    balance =100;
+    balance =2;
 
   }
 
