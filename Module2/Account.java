@@ -16,8 +16,7 @@ public class Account {
     balance = balance - (amount*0.05);
     if(amount<=balance){
       balance=balance-amount;
-    }
-else{
+    } else{
       System.out.println("transaction cancelled");
     }
 

@@ -5,25 +5,7 @@ package Module3;
  */
 public class Student {
 
-  private void setFirstName(String firstName) {
-    this.firstName = firstName;
-  }
 
-  private void setLastName(String lastName) {
-    this.lastName = lastName;
-  }
-
-  private void setGroup(int group) {
-    this.group = group;
-  }
-
-  private void setCoursesTaken(Course[] coursesTaken) {
-    this.coursesTaken = coursesTaken;
-  }
-
-  private void setAge(int age) {
-    this.age = age;
-  }
 
   public String firstName;
   public String lastName;
@@ -51,6 +33,25 @@ public class Student {
   }
 
   private int age;
+  private void setFirstName(String firstName) {
+    this.firstName = firstName;
+  }
+
+  private void setLastName(String lastName) {
+    this.lastName = lastName;
+  }
+
+  private void setGroup(int group) {
+    this.group = group;
+  }
+
+  private void setCoursesTaken(Course[] coursesTaken) {
+    this.coursesTaken = coursesTaken;
+  }
+
+  private void setAge(int age) {
+    this.age = age;
+  }
 
 public Student (String firstName, String lastName, int group, Course[] coursesTaken, int age ){
   this.firstName = firstName;

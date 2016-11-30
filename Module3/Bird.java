@@ -7,7 +7,7 @@ public class Bird {
   public static void main(String[] args){
 
 
-  // make a Bird object and access it
+  // make a Bird an object and access it
   Bird bird1 = new Bird();
         bird1.sing();}
 
