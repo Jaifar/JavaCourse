@@ -10,7 +10,7 @@ public class SolutionMain {
     Course[] crArrays = new Course[3];
     crArrays[0] = new Course("math", 3, "Ivanko");
     crArrays[1] = new Course("English", 5, "Nicolau");
-    
+
 
     Course course = new Course("Match",12,"Tom");
     Course course1 = new Course(12,"Bob");
