@@ -1,17 +1,14 @@
 package Module4;
 
 /**
- * Created by Owner on 11/29/2016.
+ * Created by Owner on 1/31/2017.
  */
 public class User {
-  long id;
-  String name;
-  double balance;
-  int monthsOfEmployment;
-  String companyName;
-  int salary;
-  Bank bank;
-
-
-
-  }
+  public long id;
+  public String name;
+  public double balance;
+  public int monthsOfEmployment;
+  public String companyName;
+  public int salary;
+  public Bank bank;
+}
