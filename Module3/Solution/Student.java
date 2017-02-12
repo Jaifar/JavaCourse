@@ -32,39 +32,39 @@ public class Student {
   }
 
 
-  private String getFirstName() {
+  public String getFirstName() {
     return firstName;
   }
 
-  private void setFirstName(String firstName) {
+  public void setFirstName(String firstName) {
     this.firstName = firstName;
   }
 
-  private String getLastName() {
+  public String getLastName() {
     return lastName;
   }
 
-  private void setLastName(String lastName) {
+  public void setLastName(String lastName) {
     this.lastName = lastName;
   }
 
-  private int getGroup() {
+  public int getGroup() {
     return group;
   }
 
-  private void setGroup(int group) {
+  public void setGroup(int group) {
     this.group = group;
   }
 
-  private Course[] getCoursesTaken() {
+  public Course[] getCoursesTaken() {
     return coursesTaken;
   }
 
-  private void setCoursesTaken(Course[] coursesTaken) {
+  public void setCoursesTaken(Course[] coursesTaken) {
     this.coursesTaken = coursesTaken;
   }
 
-  private int getAge() {
+  public int getAge() {
     return age;
   }
 

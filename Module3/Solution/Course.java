@@ -22,35 +22,35 @@ public class Course {
     this.teacherName = teacherName;
   }
 
-  private int getStartDate() {
+  public int getStartDate() {
     return startDate;
   }
 
-  private void setStartDate(int startDate) {
+  public void setStartDate(int startDate) {
     this.startDate = startDate;
   }
 
-  private String getName() {
+  public String getName() {
     return name;
   }
 
-  private void setName(String name) {
+  public void setName(String name) {
     this.name = name;
   }
 
-  private int getHoursDuration() {
+  public int getHoursDuration() {
     return hoursDuration;
   }
 
-  private void setHoursDuration(int hoursDuration) {
+  public void setHoursDuration(int hoursDuration) {
     this.hoursDuration = hoursDuration;
   }
 
-  private String getTeacherName() {
+  public String getTeacherName() {
     return teacherName;
   }
 
-  private void setTeacherName(String teacherName) {
+  public void setTeacherName(String teacherName) {
     this.teacherName = teacherName;
   }
 
