@@ -15,47 +15,47 @@ public class User {
     this.currency = currency;
   }
 
-  private String getName() {
+  public String getName() {
     return name;
   }
 
-  private void setName(String name) {
+  public void setName(String name) {
     this.name = name;
   }
 
-  private int getBalance() {
+  public int getBalance() {
     return balance;
   }
 
-  private void setBalance(int balance) {
+  public void setBalance(int balance) {
     this.balance = balance;
   }
 
-  private int getMonthsOfEmployment() {
+  public int getMonthsOfEmployment() {
     return monthsOfEmployment;
   }
 
-  private void setMonthsOfEmployment(int monthsOfEmployment) {
+  public void setMonthsOfEmployment(int monthsOfEmployment) {
     this.monthsOfEmployment = monthsOfEmployment;
   }
 
-  private String getCompanyName() {
+  public String getCompanyName() {
     return companyName;
   }
 
-  private void setCompanyName(String companyName) {
+  public void setCompanyName(String companyName) {
     this.companyName = companyName;
   }
 
-  private int getSalary() {
+  public int getSalary() {
     return salary;
   }
 
-  private void setSalary(int salary) {
+  public void setSalary(int salary) {
     this.salary = salary;
   }
 
-  private String getCurrency() {
+  public String getCurrency() {
     return currency;
   }
 
@@ -77,17 +77,16 @@ public class User {
   //withdraw(int summ) - снимает деньги с баланса с комиссией 5%, если сумма < 1000 и комиссией 10% в других случаях
   // companyNameLenght - вычисляет длину имя компании
   // monthIncreaser(int addMonth) - увеличивает monthsOfEmployment на addMonth
-  public int paySalary(int salary, int balance) {
-    return salary + balance;
 
+  public void paySalary(){
+    balance += salary;
   }
-
   public void withdraw(int summ) {
 
     if (summ < 1000) {
-      balance -= summ * 0.05;
+      balance -= summ+(summ * 0.05);
     } else {
-      balance -= summ * 0.1;
+      balance -= summ+ (summ * 0.1);
     }
   }
 
