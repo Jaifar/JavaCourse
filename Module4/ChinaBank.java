@@ -35,11 +35,16 @@ public class ChinaBank extends Bank {
   int getMonthlyRate() {
     if (currency == Currency.USD)
       return 1;
-    if (currency == Currency.EUR)
-      return 2;
+  else
     return 0;
   }
-
+  //@Override
+  //public int getMonthlyRate() {
+    //if (currency == Currency.USD) {
+    //  return 1;
+    //} else {
+     // return 0;
+    //}
   @Override
     //   commision - 3% if USD and up to 1000, 5% if USD and more than 1000
   int getCommission(int summ) {

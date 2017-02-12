@@ -25,7 +25,7 @@ public abstract class Bank {
   //       double moneyPaidMonthlyForSalary()
   private long id;
   private String bankCountry;
-  private Currency currency;
+  public Currency currency;
   private int numberOfEmployees;
   private double avrSalaryOfEmployee;
   private long rating;

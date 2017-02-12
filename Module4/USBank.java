@@ -51,7 +51,7 @@ public class USBank extends Bank {
         return 7;
     }
     if (currency == Currency.EUR) {
-      if (summ <= 100)
+      if (summ <= 1000)
         return 6;
       else
         return 8;
