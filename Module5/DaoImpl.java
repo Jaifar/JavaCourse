@@ -61,6 +61,11 @@ public class DaoImpl implements DAO {
         System.out.println("find " + id);
         return null;
     }
+
+    @Override
+    public Room[] getAll() {
+        return new Room[0];
+    }
 //    save - adds room to arra
 //    delete - deletes rooms from array
 //    update - updates room in array (find room to update by id)

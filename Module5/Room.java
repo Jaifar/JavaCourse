@@ -87,5 +87,11 @@ public class Room {
         return price + persons + cityName.hashCode();
     }
 
-
+//    @Override
+//    public int hashCode() {
+//        int result = price;
+//        result = 31 * result + persons;
+//        result = 31 * result + cityName.hashCode();
+//        return result;
+//    }
 }

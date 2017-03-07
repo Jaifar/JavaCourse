@@ -11,9 +11,13 @@ public class Main {
         controller.requestRooms(34, 45, "Paris", "U");
         controller.requestRooms(3, 4, "Dublin", "U");
         controller.check(Controller.apis[0],Controller.apis[1]);
-        controller.check(Controller.apis[2],Controller.apis[3]);
-        controller.check(Controller.apis[4],Controller.apis[6]);
-     
+        controller.check(Controller.apis[1],Controller.apis[2]);
+        controller.check(Controller.apis[2],Controller.apis[0]);
+
+       // Также проверьте все методы 3 раза с разными API, чтобы продемонстрировать,
+        // как работает программа. - это не сделано в Main
+
+
 //    В методе класса Main создайте Controller и сделайте 3 запроса с разными параметрами, чтобы найти номера.
 //    Также проверьте все методы 3 раза с разными API, чтобы продемонстрировать, как работает программа.
 
